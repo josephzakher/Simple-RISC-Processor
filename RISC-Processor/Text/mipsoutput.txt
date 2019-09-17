@@ -1,0 +1,7 @@
+rwid  $gprs0, 10
+rwid  $gprs1, 0
+bzer  $gprs1, $gprs0, 6
+plus  $gprs2, $gprs2, $gprs4
+plus  $gprs1, $gprs1, $gprs3
+goto  2
+end:
